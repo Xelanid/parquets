@@ -1,6 +1,6 @@
 
 class JobsController:
-	__slots__ = ('__job')
+	__slots__ = ('__job',)
     
 	def __init__(self, job: dict):
 		self.__job = job
